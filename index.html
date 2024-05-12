@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card</title>
+
+    <style>
+        body {
+            background: url("bg.jpg") no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .container {
+            position: relative;
+            top: 8vh;
+            left: 33vw;
+            height: 500px;
+            width: 400px;
+            border: 3px solid black;
+            border-radius: 10px;
+            /* background-color: azure; */
+            backdrop-filter: blur(5px);
+        }
+
+        img {
+            height: 200px;
+            width: 390px;
+            padding: 5px;
+            border-radius: 14px;
+        }
+
+        .capsule span {
+            display: inline-block;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 3px;
+            background-color: honeydew;
+            margin-right: 10px;
+            width: 57px;
+            font-size: 13px;
+        }
+
+        .capsule {
+            padding: 7px 0px 0px 11px;
+        }
+
+
+        h2 {
+            margin: 0;
+            padding: 16px 0px 0px 11px;
+        }
+
+        .content {
+            padding: 0px 13px 13px 11px;
+            font-size: 14px;
+        }
+
+        .but button {
+            width: 96px;
+            height: 38px;
+            border: 1px solid black;
+            background-color: cornflowerblue;
+            border-radius: 18px;
+            cursor: pointer;
+        }
+
+        .but {
+            padding: 0px 0px 0px 138px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <img src="lake.jpg" alt="Card Image">
+
+        <div class="capsule">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+
+        <h2>Lago di Braies</h2>
+
+        <div class="content">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos impedit eos, labore vitae iure
+                eum,ducimus dolorum at ipsum nobis libero et explicabo suscipit hic! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Delectus quaerat sequi illo natus rem dolores. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Molestias pariatur commodi quisquam? Animi minus perspiciatis molestias,
+                non dolor dolorum impedit nulla quisquam ut?
+            </p>
+        </div>
+
+        <div class="but">
+            <button>
+                <a href="https://en.wikipedia.org/wiki/Lake" style="text-decoration: none;" target="_blank">Read
+                    More</a>
+            </button>
+        </div>
+
+    </div>
+</body>
+
+</html>
